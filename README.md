@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project focuses on forecasting daily concentrations of Carbon Monoxide (CO(GT)) and Nitrogen Dioxide (NO₂(GT)) using historical air-quality sensor data. Accurate short-term forecasting enables proactive air-quality management, supports public health decision-making, and helps mitigate exposure risks.
+> This project focuses on forecasting daily concentrations of Carbon Monoxide (CO(GT)) and Nitrogen Dioxide (NO₂(GT)) using historical air-quality sensor data. Accurate short-term forecasting enables proactive air-quality management, supports public health decision-making, and helps mitigate exposure risks.
 
-Multiple modeling approaches are implemented and compared, including statistical time-series models, machine learning regressors, and deep learning architectures, to identify the most effective forecasting strategy.
+> Multiple modeling approaches are implemented and compared, including statistical time-series models, machine learning regressors, and deep learning architectures, to identify the most effective forecasting strategy.
 
 ## Objectives
 
@@ -127,17 +127,13 @@ Purpose: Understand trends, variability, and seasonality.
 # Final Model Recommendation
   <img width="509" height="330" alt="{74592204-C72E-45A5-8262-D3D219A42FE4}" src="https://github.com/user-attachments/assets/1c7dfcb8-33a4-4caa-9f62-56e130cb8711" />
 
-## Technologies Used
+## License
 
-  - Python
-    
-  - Pandas, NumPy
-    
-  - Matplotlib
-    
-  - Scikit-learn
-    
-  - tatsmodels
-    
-  - ensorFlow / Keras
+License: [MIT]
+
+## Author
+
+Md Toahir Hussain
+
+LinkedIn: [https://www.linkedin.com/in/md-toahir-hussain-79009a14b/]
 
