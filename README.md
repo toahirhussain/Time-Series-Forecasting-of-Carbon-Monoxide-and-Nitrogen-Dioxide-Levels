@@ -19,37 +19,37 @@ Multiple modeling approaches are implemented and compared, including statistical
   - Visualize predictions and derive actionable insights
 
 ## Dataset Description
-  * Targets
+Targets
 
-      - CO(GT) – Carbon Monoxide concentration
+  - CO(GT) – Carbon Monoxide concentration
       
-      - NO2(GT) – Nitrogen Dioxide concentration
+  - NO2(GT) – Nitrogen Dioxide concentration
 
-  * Exogenous Variables
+Exogenous Variables
 
-      - T – Temperature
+  - T – Temperature
       
-      - RH – Relative Humidity
+  - RH – Relative Humidity
       
-      - AH – Absolute Humidity
+  - AH – Absolute Humidity
 
-  *Preprocessing Notes
+Preprocessing Notes
 
-      - Missing values encoded as -200 were converted to NaN
+  - Missing values encoded as -200 were converted to NaN
       
-      - Data was resampled to daily averages to improve stability and computational efficiency
+  - Data was resampled to daily averages to improve stability and computational efficiency
 
 ## Project Workflow
 
-    - Data Preprocessing
+  - Data Preprocessing
     
-    - Datetime parsing and indexing
+  - Datetime parsing and indexing
     
-    - Numeric type conversion
+  - Numeric type conversion
     
-    - Missing value imputation
+  - Missing value imputation
     
-    - Daily resampling
+  - Daily resampling
 
 ## Exploratory Data Analysis (EDA)
 
@@ -57,50 +57,50 @@ Purpose: Understand trends, variability, and seasonality.
 
 📊 Plots shown here:
 
-    - Time-series trend plots for CO(GT) and NO₂(GT)
+  - Time-series trend plots for CO(GT) and NO₂(GT)
     
-    - Seasonality by day of week plots
+  - Seasonality by day of week plots
     
-    - Correlation heatmaps (if included)
+  - Correlation heatmaps (if included)
 ## Feature Engineering
 
-    Lag features
+  - Lag features
     
-    Rolling statistics
+  - Rolling statistics
     
-    Time-based features (weekday, month)
+  - Time-based features (weekday, month)
 
 ## Forecasting Models
   Models Implemented
 
-    ARIMA – Univariate statistical baseline
+  - ARIMA – Univariate statistical baseline
     
-    SARIMAX – Seasonal time-series model (weekly seasonality)
+  - SARIMAX – Seasonal time-series model (weekly seasonality)
     
-    Ridge Regression – Linear ML baseline
+  - Ridge Regression – Linear ML baseline
     
-    Random Forest – Non-linear ensemble model
+  - Random Forest – Non-linear ensemble model
     
-    LSTM – Deep learning sequence model
+  - LSTM – Deep learning sequence model
 
 ## Model Evaluation
 
   Metrics Used
 
-    Mean Absolute Error (MAE)
+  - Mean Absolute Error (MAE)
     
-    Root Mean Squared Error (RMSE)
+  - Root Mean Squared Error (RMSE)
     
-    Mean Absolute Percentage Error (MAPE)
+  - Mean Absolute Percentage Error (MAPE)
 
     <img width="1723" height="427" alt="{B81CB88E-7BA0-4859-8DF7-83161038F4FF}" src="https://github.com/user-attachments/assets/07c5715b-7828-438a-a483-62c733314f49" />
     <img width="1717" height="417" alt="{374C64DE-53F8-4B80-A994-3DD1A2464556}" src="https://github.com/user-attachments/assets/c0576b73-5e39-496e-a796-a8c4596d8b26" />
 
   📊 Plots shown here:
 
-    Actual vs Predicted plots (side-by-side for CO & NO₂)
+  - Actual vs Predicted plots (side-by-side for CO & NO₂)
     
-    Residual distributions
+  - Residual distributions
 
 ## Model Comparison (Key Section)
 
@@ -108,33 +108,34 @@ Purpose: Understand trends, variability, and seasonality.
 
   📊 Plots shown here:
 
-    Bar charts comparing RMSE, MAE, and MAPE
+  - Bar charts comparing RMSE, MAE, and MAPE
     
-    Subplots comparing all models side-by-side
+  - Subplots comparing all models side-by-side
     
-    Overlay plots comparing best models
+  - Overlay plots comparing best models
 
 ## Forecast Visualization
 
   📊 Plots shown here:
 
-    Future forecasts (7–30 days)
+  - Future forecasts (7–30 days)
     
-    Historical vs forecasted values
+  - Historical vs forecasted values
+
 # Final Model Recommendation
-    <img width="509" height="330" alt="{74592204-C72E-45A5-8262-D3D219A42FE4}" src="https://github.com/user-attachments/assets/1c7dfcb8-33a4-4caa-9f62-56e130cb8711" />
+  <img width="509" height="330" alt="{74592204-C72E-45A5-8262-D3D219A42FE4}" src="https://github.com/user-attachments/assets/1c7dfcb8-33a4-4caa-9f62-56e130cb8711" />
 
 ## Technologies Used
 
-    Python
+  - Python
     
-    Pandas, NumPy
+  - Pandas, NumPy
     
-    Matplotlib
+  - Matplotlib
     
-    Scikit-learn
+  - Scikit-learn
     
-    Statsmodels
+  - tatsmodels
     
-    TensorFlow / Keras
+  - ensorFlow / Keras
 
