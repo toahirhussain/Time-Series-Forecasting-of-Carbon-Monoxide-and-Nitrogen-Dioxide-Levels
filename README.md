@@ -20,6 +20,7 @@ Multiple modeling approaches are implemented and compared, including statistical
 
 ## Dataset Description
 Targets
+<img width="1559" height="220" alt="{630F2EE4-BD00-42CC-89B8-29E622F6ECA5}" src="https://github.com/user-attachments/assets/f1f81e87-7727-4485-b6fe-b1701a4e7821" />
 
   - CO(GT) – Carbon Monoxide concentration
       
